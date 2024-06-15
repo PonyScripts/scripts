@@ -1,0 +1,102 @@
+{
+    "version": "2.1",
+    "favourites": [
+        
+    ],
+    "iconsSize": "small",
+    "showTooltip": true,
+    "openOnHover": false,
+    "displayCategoryNames": true,
+    "minutesSaved": 1.91333333333333,
+    "remainContextMenuOpened": true,
+    "topUsedTools": {
+        
+    },
+    "topSearch": {
+        
+    },
+    "workspaces": {
+        "currentWorkspace": 1,
+        "1": {
+            "visibleCategories": {
+                "1": false,
+                "2": false,
+                "3": false,
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false,
+                "9": false,
+                "10": false,
+                "11": false
+            },
+            "favourites": [
+                {
+                    "type": "tool",
+                    "id": 192
+                },
+                {
+                    "type": "tool",
+                    "id": 193
+                },
+                {
+                    "type": "script",
+                    "path": "D:\\Christian Lingua\\scripts\\OP50.jsx",
+                    "name": "OP50"
+                },
+                {
+                    "type": "script",
+                    "path": "D:\\Christian Lingua\\scripts\\OP100.jsx",
+                    "name": "OP100"
+                },
+                {
+                    "type": "preset",
+                    "path": "D:\\Christian Lingua\\scripts\\R – копія.ffx",
+                    "name": "R"
+                },
+                {
+                    "type": "preset",
+                    "path": "D:\\Christian Lingua\\scripts\\P.ffx",
+                    "name": "P"
+                }
+            ]
+        },
+        "2": {
+            "visibleCategories": {
+                "1": true,
+                "2": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "6": true,
+                "7": true,
+                "8": true,
+                "9": true,
+                "10": true,
+                "11": true
+            },
+            "favourites": [
+                
+            ]
+        },
+        "3": {
+            "visibleCategories": {
+                "1": true,
+                "2": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "6": true,
+                "7": true,
+                "8": true,
+                "9": true,
+                "10": true,
+                "11": true
+            },
+            "favourites": [
+                
+            ]
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "funding": {
+        "fundingGoal": 4000,
+        "monthlyFund": 2407
+    },
+    "common": {
+        "language": "en",
+        "currentLanguageName": "English",
+        "latestUpdateCheck": 1693815329988,
+        "uiMode": 1,
+        "highlightSelection": 0,
+        "highlightColor": "[0.1764,0.549,0.9215,1]",
+        "debug": false
+    },
+    "noteType": 0,
+    "currentPanel": 2,
+    "autorig": {
+        "threeLayerMode": 0,
+        "longMode": 0
+    },
+    "layerControlsDialogDisabled": true,
+    "homeScreenDisabled": false
+}

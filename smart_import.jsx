@@ -1,0 +1,28 @@
+
+		if(!$["_extAutomationBlocks"]) {
+			alert("Automation Blocks is not initialized. To run this script make sure the extension Automation Blocks is installed.");
+			throw new Error("could not find Automation Blocks API");
+		}
+		
+	(function(thisObj){
+		$._extAutomationBlocks.all.abDestructor.announceEndPoint("main script");
+		var myResult;
+		try {
+			app.beginUndoGroup("Automation Blocks");
+			myResult = JSON.stringify({status:"SUCCESS", data: eval("var list, j, VM_list_of_imported, footage_list, i, VM_name, project_item_var, VM_comp, my_layer;\n\nfunction subsequenceFirstFromEnd(sequence, at2) {\n  var start = 0;\n  var end = sequence.length - 1 - at2 + 1;\n  return sequence.slice(start, end);\n}\n\n\n$._extAutomationBlocks.all.messageAboutExecuteBlock('`mM4m0QguQ)/=4froECw');\nif (true) {\n  $._extAutomationBlocks.all.messageAboutExecuteBlock('[ZuDgZ:)?FcO@JlHWrql');\n  list = ($._extAutomationBlocks.AeProject.getAllItemsInAeBin(('/PreRender'),{recursively: false, onlySelected: (false),typeArray:[\"FootageNoSolidItem\"], resultType:\"PATH\"}));\n  $._extAutomationBlocks.all.messageAboutExecuteBlock('{xo%MzAdxvDDZk/r6:F+');\n  VM_list_of_imported = [];\n  $._extAutomationBlocks.all.messageAboutExecuteBlock(')OE/jj?IvEw4BfO,cv?-');\n  var i_end = list.length;\n  var i_inc = 1;\n  if (1 > i_end) {\n    i_inc = -i_inc;\n  }\n  for (i = 1; i_inc >= 0 ? i <= i_end : i >= i_end; i += i_inc) {\n    $._extAutomationBlocks.all.messageAboutExecuteBlock('3bW!A]=?8%nfKTSy9W;T');\n    VM_list_of_imported.splice((i - 1), 0, ($._extAutomationBlocks.all.EsString.getFilePathPart((list[(i - 1)]),'NAME')).split('_[')[0]);\n    $._extAutomationBlocks.all.messageAboutExecuteBlock(')OE/jj?IvEw4BfO,cv?-');\n  }\n}\n$._extAutomationBlocks.all.messageAboutExecuteBlock('?CPKd9S8qexh?oahtuCL');\nvar j_list = ($._extAutomationBlocks.all.getFilesInFolder((String($._extAutomationBlocks.AeProject.getProjectFolder()) + '\\\\render'),'FOLDERS',false));\nfor (var j_index =0; j_index< j_list.length;j_index++) {\n  try { j = j_list[j_index];}\n\t\tcatch(e) {\n\t\t\t$._extAutomationBlocks.all.log(\"skipped loop iteration:\"+e.message);\n\t\t\tcontinue;\n\t\t}\n\t\t  $._extAutomationBlocks.all.messageAboutExecuteBlock('EF,=H[4zFIrrd4d.1DO7');\n  footage_list = ($._extAutomationBlocks.all.getFilesInFolder(j,'FILES',false))[0];\n  $._extAutomationBlocks.all.messageAboutExecuteBlock('W3$pR@-,`$~buLTjlEg^');\n  VM_name = subsequenceFirstFromEnd($._extAutomationBlocks.all.EsString.getFilePathPart(footage_list,'NAME'), 1);\n  $._extAutomationBlocks.all.messageAboutExecuteBlock('q5VL]X!h,J9C-Vw}i,_*');\n  if (($._extAutomationBlocks.all.EsString.stringSearch(VM_list_of_imported,VM_name,(false),(false))) == 0) {\n    $._extAutomationBlocks.all.messageAboutExecuteBlock('7DIvkwAwW`jF~?cc8-b/');\n    if (true) {\n      $._extAutomationBlocks.all.messageAboutExecuteBlock('Bop[R0+.RWEDLZxvs%Yf');\n      if (true) {\n        $._extAutomationBlocks.all.messageAboutExecuteBlock('n+M$xHxHqJk6UgU3Fst]');\n        project_item_var = $._extAutomationBlocks.AeProject.importFootageFile(footage_list, ('/PreRender'), {sequence: (true), importAs: ('footage'), avoidDuplicates: (true)});\n        $._extAutomationBlocks.all.messageAboutExecuteBlock('44jKSIjg{]At44P^5A{`');\n        VM_comp = '/Shots/' + String(($._extAutomationBlocks.AeProjectItem.getAttribute(project_item_var, 'NAME')).split('_[')[0]);\n        $._extAutomationBlocks.all.messageAboutExecuteBlock('W+PcU+}KN5qsVff$OyJ3');\n        $._extAutomationBlocks.AeLayer.setAttribute(($._extAutomationBlocks.AeLayer.getLayers(VM_comp, {onlySelected:false,sortSelection:false, typeArray: [\"Layer\"]})), 'SOLO', (false));\n        $._extAutomationBlocks.all.messageAboutExecuteBlock('w$s`!;Rp]##M2RkV8OCd');\n        $._extAutomationBlocks.AeLayer.setAttribute(($._extAutomationBlocks.AeLayer.getLayers(VM_comp, {onlySelected:false,sortSelection:false, typeArray: [\"TextLayer\"]})), 'SOLO', (true));\n        $._extAutomationBlocks.all.messageAboutExecuteBlock('4a]cyw{l#lG.1228KwSF');\n        my_layer = $._extAutomationBlocks.AeComp.addLayer(VM_comp,{type: \"PROJECT_ITEM\",name:($._extAutomationBlocks.AeProjectItem.getAttribute(project_item_var, 'NAME')),projectItem:project_item_var});\n        $._extAutomationBlocks.all.messageAboutExecuteBlock('V.Gu(.a`jm`R/E43$|,!');\n        $._extAutomationBlocks.AeLayer.setAttribute(my_layer, 'INDEX', (($._extAutomationBlocks.AeLayer.getLayers(VM_comp, {onlySelected:false,sortSelection:false, typeArray: [\"Layer\"]})).length + 1));\n        $._extAutomationBlocks.all.messageAboutExecuteBlock('b;uLNf^rSMj?^aVp3dP6');\n        $._extAutomationBlocks.AeLayer.setAttribute(my_layer, 'SOLO', (true));\n      }\n    }\n    $._extAutomationBlocks.all.messageAboutExecuteBlock('6#`1Kipb7nUNV-#aWZtY');\n    $._extAutomationBlocks.all.log(('Import ' + String(VM_name)));\n  } else {\n    $._extAutomationBlocks.all.messageAboutExecuteBlock('iM)-zG/!cO[|G))zvFKN');\n    $._extAutomationBlocks.all.log(('Exist ' + String(VM_name)));\n  }\n  $._extAutomationBlocks.all.messageAboutExecuteBlock('?CPKd9S8qexh?oahtuCL');\n}\n")});
+		}
+		catch(err){
+			myResult = JSON.stringify({status:"ERROR", data:""+err.message+" (line "+(err.line)+")"});
+		}
+		finally {
+			app.endUndoGroup();
+			try{
+			$._extAutomationBlocks.all.abDestructor.notifyEndPointReached("main script");
+			}
+			catch(err){
+				myResult = JSON.stringify({status:"ERROR", data:""+err.message+" (line "+(err.line)+")"});
+			}
+		}
+		return myResult;
+	})(this)
+	

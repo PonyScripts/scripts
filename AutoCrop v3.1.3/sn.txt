@@ -1,0 +1,18 @@
+
+
+craked by Monter Group → monter.is
+
+Copy Auto_Crop.aex into one of the following directories.
+
+To install for a specific version of After Effects:
+C:/Program Files/Adobe/After Effects VERSION/Support Files/Plug-ins
+
+The Auto Crop.jsxbin file needs to be copied into each version of After Effects where you want the
+panel to be available, there is no common location.
+
+C:/Program Files/Adobe/After Effects VERSION/Support Files/Scripts/ScriptUI
+Panels/
+
+SN: BFAC3*MONTER*GROUP*202012021616789SUL9
+
+craked by Monter Group → monter.is

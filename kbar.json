@@ -1,0 +1,1733 @@
+{
+   "source": "com.kraftyfx.kbar",
+   "schema": 2.1,
+   "toolbars": [
+      {
+         "name": "VM",
+         "buttons": [
+            {
+               "id": "6ba0e125-4425-4f21-962e-61547b55f4fb",
+               "type": 8,
+               "name": "-",
+               "description": "-",
+               "icon": {
+                  "type": 0,
+                  "path": "",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               }
+            },
+            {
+               "type": 6,
+               "name": "Automation Block",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "free-code-camp",
+                  "color": "rgba(255, 0, 0, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "extensionId": "com.mamoworld.AutomationBlocksAe.extension",
+               "argument": "",
+               "id": "0f4cf43a-64fc-46ef-a7b0-74154a472e9b"
+            },
+            {
+               "type": 5,
+               "name": "General Preferences",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "cog",
+                  "color": "rgba(22, 0, 255, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "menuCommand": "General...",
+               "id": "f877aa96-19bd-4957-9aa4-e27e90694e3f"
+            },
+            {
+               "id": "33935f6c-c291-4170-b95a-0c68ae826e16",
+               "type": 8,
+               "name": "-",
+               "description": "-",
+               "icon": {
+                  "type": 0,
+                  "path": "",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               }
+            },
+            {
+               "type": 5,
+               "name": "fit horizontal",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "arrows-h",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "menuCommand": "Fit to Comp Width",
+               "id": "5a075327-90d5-4280-9392-d80303be31f3"
+            },
+            {
+               "type": 5,
+               "name": "fit vertical",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "arrows-v",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "menuCommand": "Fit to Comp Height",
+               "id": "8af174ac-e8bd-4265-9229-62580e87aac8"
+            },
+            {
+               "id": "af812886-0886-4b10-a1e7-2ab4104503f2",
+               "type": 8,
+               "name": "-",
+               "description": "-",
+               "icon": {
+                  "type": 0,
+                  "path": "",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               }
+            },
+            {
+               "type": 1,
+               "name": "set 50 opacity",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "low-vision",
+                  "color": ""
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\OP50.jsx",
+               "argument": "",
+               "id": "26014e03-fe36-47cd-b00f-dfc5f65b76d8",
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               }
+            },
+            {
+               "type": 1,
+               "name": "set 100 opacity",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "eye",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\OP100.jsx",
+               "argument": "",
+               "id": "a7bd9127-e02c-473e-8d60-849a06263d77"
+            },
+            {
+               "id": "9517fece-83c4-4885-911e-9d372279294c",
+               "type": 8,
+               "name": "-",
+               "description": "-",
+               "icon": {
+                  "type": 0,
+                  "path": "",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               }
+            },
+            {
+               "type": 5,
+               "name": "Time-Reverse Keyframes",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "refresh",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "menuCommand": "Time-Reverse Keyframes",
+               "id": "16957067-88ef-47f9-97df-0cf80e19f80c"
+            },
+            {
+               "id": "9b9ac5c2-d818-436a-8cd4-f01edf85a67f",
+               "type": 8,
+               "name": "-",
+               "description": "-",
+               "icon": {
+                  "type": 0,
+                  "path": "",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               }
+            },
+            {
+               "type": 1,
+               "name": "Position Wiggle",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "arrows",
+                  "color": "rgba(221, 207, 0, 1)"
+               },
+               "modifiers": {
+                  "ctrl": {
+                     "type": 1,
+                     "name": "batch Edit amplitude",
+                     "description": "",
+                     "icon": {
+                        "type": 1,
+                        "path": "cog",
+                        "color": ""
+                     },
+                     "filePath": "D:\\Christian Lingua\\scripts\\VM_edit_Wiggle.jsx",
+                     "argument": "",
+                     "id": "024da103-9aaf-4080-94aa-f377f58375a5"
+                  },
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\PWS.jsx",
+               "argument": "",
+               "id": "dd3a3773-5f0f-4f68-b034-0087fe7de8a0"
+            },
+            {
+               "type": 1,
+               "name": "Rotation Wiggle",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "bullseye",
+                  "color": "rgba(0, 161, 255, 1)"
+               },
+               "modifiers": {
+                  "ctrl": {
+                     "type": 1,
+                     "name": "batch Edit amplitude",
+                     "description": "",
+                     "icon": {
+                        "type": 1,
+                        "path": "cogs",
+                        "color": ""
+                     },
+                     "filePath": "D:\\Christian Lingua\\scripts\\VM_edit_Wiggle.jsx",
+                     "argument": "",
+                     "id": "0c3e2874-d42c-4965-a822-df26448491dc"
+                  },
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\RWS.jsx",
+               "argument": "",
+               "id": "e0ef8d3b-5c0c-48e1-aa52-f7a1cd529b6e"
+            },
+            {
+               "type": 0,
+               "name": "wiggle(0.25,2.5)",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "path": "W",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "expression": "wiggle(0.25,2.5)",
+               "id": "305a7376-7505-4f06-8724-623023610f9e"
+            },
+            {
+               "id": "73104cfd-7e58-44d9-8723-adba73cb013b",
+               "type": 8,
+               "name": "-",
+               "description": "-",
+               "icon": {
+                  "type": 0,
+                  "path": "",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               }
+            },
+            {
+               "type": 5,
+               "name": "Auto Crop",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "crop",
+                  "color": "rgba(0, 255, 39, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "menuCommand": "Auto Crop",
+               "id": "fe5cc4ba-a38e-4bdb-960d-0996816814a1"
+            },
+            {
+               "type": 1,
+               "name": "VM_Precomp",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "object-group",
+                  "color": "rgba(0, 167, 167, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\VM_precomp.jsx",
+               "argument": "",
+               "id": "bfa24293-3150-4cab-83e8-cadc06a2a5b9"
+            },
+            {
+               "type": 1,
+               "name": "True Comp Duplicator",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "clone",
+                  "color": "rgba(0, 0, 0, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\True Comp Duplicator.jsx",
+               "argument": "",
+               "id": "4fa7ca5b-342f-4694-8efb-9b150d2ba5c5"
+            },
+            {
+               "type": 1,
+               "name": "_/\\_/\\_ OUT ---Copies the selected layers from a precomp into the parent comp",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "arrow-circle-o-up",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Copy or Move to Parent Comp.jsx",
+               "argument": "",
+               "id": "697f3bd9-264e-4d1a-959b-90e5823e73e9"
+            },
+            {
+               "type": 1,
+               "name": "-\\/-\\/- IN --- This script moves the selected layer(s) into a precomp",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "arrow-circle-o-down",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Copy or Move to Precomp.jsx",
+               "argument": "",
+               "id": "1fe74917-1682-49a9-84b9-21b443ec94b7"
+            },
+            {
+               "id": "4d329b7c-d88d-46b8-894b-c785230aa328",
+               "type": 8,
+               "name": "-",
+               "description": "-",
+               "icon": {
+                  "type": 0,
+                  "path": "",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               }
+            },
+            {
+               "type": 1,
+               "name": "VM pappet pin",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "pinterest-p",
+                  "color": "rgba(199, 0, 255, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\VM_pappet_pin.jsx",
+               "argument": "",
+               "id": "423bcf87-34ef-4791-a171-373b8dd5def5"
+            },
+            {
+               "type": 1,
+               "name": "Parent all selected layers to last selected",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "user",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\set_parent.jsx",
+               "argument": "",
+               "id": "39d07112-c052-481f-adc8-84cb5cfc5665"
+            },
+            {
+               "id": "86cff9f3-6be1-43f6-b4cd-008ef1e278fd",
+               "type": 8,
+               "name": "-",
+               "description": "-",
+               "icon": {
+                  "type": 0,
+                  "path": "",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               }
+            },
+            {
+               "type": 1,
+               "name": "Set/Reset Difference Blending Mode",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "snapchat-ghost",
+                  "color": "rgba(253, 0, 255, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Diff_mode.jsx",
+               "argument": "",
+               "id": "569e2b56-445a-43cf-a0f7-7656d44beb85"
+            },
+            {
+               "type": 5,
+               "name": "Flip Horizontal",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "handshake-o",
+                  "color": "rgba(10, 0, 255, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "menuCommand": "Flip Horizontal",
+               "id": "14321ca5-dee6-4904-afdd-934127d559b8"
+            },
+            {
+               "type": 1,
+               "name": "QuickLoop",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "path": "QUIKLOOP",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "C:\\Program Files\\Adobe\\Adobe After Effects 2022\\Support Files\\Scripts\\notUsed\\Quickloop.jsx",
+               "argument": "",
+               "id": "3dd86c29-40d8-4452-8400-4282ee10c1c7"
+            },
+            {
+               "type": 1,
+               "name": "Randome Time Offset",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "random",
+                  "color": "rgba(144, 19, 254, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Random_Time_Offset.jsx",
+               "argument": "",
+               "id": "0808466a-a439-40ef-acc2-69fe6467a31a"
+            },
+            {
+               "id": "905388bc-b970-4054-abc1-b903d73b3c14",
+               "type": 8,
+               "name": "-",
+               "description": "-",
+               "icon": {
+                  "type": 0,
+                  "path": "",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               }
+            },
+            {
+               "type": 1,
+               "name": "Eye rig",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "eye",
+                  "color": "rgba(255, 0, 0, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Eye_Rig_v1.jsx",
+               "argument": "",
+               "id": "17ec43bc-ebb4-42b7-a88e-d2463d632aa9"
+            },
+            {
+               "type": 1,
+               "name": "add Guide layer",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "star-half-o",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\new guide layer.jsx",
+               "argument": "",
+               "id": "3af38d88-70c6-4854-a701-8fb7c0fb1ac6"
+            },
+            {
+               "type": 1,
+               "name": "Simple_arm_rig_anim",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "path": "SARA",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Simple_arm_rig_anim.jsx",
+               "argument": "",
+               "id": "efdba003-de83-4879-97ca-0ad7e29e21d2"
+            },
+            {
+               "id": "074c3910-405e-4898-9b16-33a86147fb93",
+               "type": 8,
+               "name": "-",
+               "description": "-",
+               "icon": {
+                  "type": 0,
+                  "path": "",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               }
+            },
+            {
+               "type": 1,
+               "name": "Set Duration of Selected layer to comp",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "hourglass-half",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\fit_to_Comp_Duration.jsx",
+               "argument": "",
+               "id": "6bc46225-408c-4e5d-af45-6a7e4046acfb"
+            },
+            {
+               "type": 1,
+               "name": "add 1 sec to comp",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "plus",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\add_sec_to_Comp.jsx",
+               "argument": "",
+               "id": "c4e57a91-90a8-4dc5-8cb9-4d7a22db6f2c"
+            },
+            {
+               "type": 4,
+               "name": "Turbulent Displace",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "path": "TD",
+                  "color": "rgba(0, 202, 255, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "presetPath": "D:\\Christian Lingua\\scripts\\TurbDisp.ffx",
+               "id": "48dceda3-737a-42cb-8094-bfc99c624cc5"
+            },
+            {
+               "id": "cf837a2f-24cb-45ac-b903-e89d8a593630",
+               "type": 8,
+               "name": "-",
+               "description": "-",
+               "icon": {
+                  "type": 0,
+                  "path": "",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               }
+            },
+            {
+               "type": 1,
+               "name": "set red color",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "stop",
+                  "color": "rgba(208, 2, 27, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\set color Red.jsx",
+               "argument": "",
+               "id": "27fcddd1-850c-46e0-8444-d523c89201d1"
+            },
+            {
+               "type": 1,
+               "name": "set orange color",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "stop",
+                  "color": "rgba(245, 166, 35, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\set color Orange.jsx",
+               "argument": "",
+               "id": "41b63b04-dc7d-461f-be7f-038046e47058"
+            },
+            {
+               "type": 1,
+               "name": "set yellow color",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "stop",
+                  "color": "rgba(248, 231, 28, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\set color Yellow.jsx",
+               "argument": "",
+               "id": "b89cb1ba-db22-4e88-a080-f75d5ff9426d"
+            },
+            {
+               "type": 1,
+               "name": "set green color",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "stop",
+                  "color": "rgba(126, 211, 33, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\set color Green.jsx",
+               "argument": "",
+               "id": "d1a1ea74-23d1-4c9a-820b-1823ff76a751"
+            },
+            {
+               "type": 1,
+               "name": "set sky color",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "stop",
+                  "color": "rgba(80, 227, 194, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\set color Cyan.jsx",
+               "argument": "",
+               "id": "ee19ec15-7aa2-43bd-b597-d2d9bcc40abf"
+            },
+            {
+               "type": 1,
+               "name": "set blue color",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "stop",
+                  "color": "rgba(74, 144, 226, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\set color Blue.jsx",
+               "argument": "",
+               "id": "bf6e4068-27c4-4a1d-b5b2-d2386d4cc4f4"
+            },
+            {
+               "type": 1,
+               "name": "set fuchsia color",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "stop",
+                  "color": "rgba(189, 16, 224, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\set color Fuchsia.jsx",
+               "argument": "",
+               "id": "a0d70572-a397-4e6e-b685-671f05d38997"
+            },
+            {
+               "id": "b8aeaf5e-e4e7-4fd1-a85f-e92ca40f08a8",
+               "type": 8,
+               "name": "-",
+               "description": "-",
+               "icon": {
+                  "type": 0,
+                  "path": "",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               }
+            },
+            {
+               "type": 1,
+               "name": "PreRender Smart Import",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "angle-double-down",
+                  "color": "rgba(255, 178, 0, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\smart_import.jsx",
+               "argument": "",
+               "id": "182d0b70-c00a-492a-899d-f4c470f76d05"
+            },
+            {
+               "type": 1,
+               "name": "Remove PreRender",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "angle-double-up",
+                  "color": "rgba(255, 0, 0, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Remove_PreRender.jsx",
+               "argument": "",
+               "id": "75905818-9d82-4c46-a6e4-9a13f46b221d"
+            },
+            {
+               "id": "2a58f98c-aaf6-40f1-91ba-ddeb3ab23878",
+               "type": 8,
+               "name": "-",
+               "description": "-",
+               "icon": {
+                  "type": 0,
+                  "path": "",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               }
+            },
+            {
+               "type": 1,
+               "name": "split_text",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "scissors",
+                  "color": "rgba(240, 12, 12, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\VM_text_spliter_V3.jsx",
+               "argument": "",
+               "id": "3c2e633b-5ac3-4e89-b2d6-9f849ed83253"
+            },
+            {
+               "type": 1,
+               "name": "combine text layers",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "compress",
+                  "color": "rgba(12, 240, 52, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\VM_combine_text.jsx",
+               "argument": "",
+               "id": "cc134e0e-f03f-432a-8c8c-d236b10d54df"
+            },
+            {
+               "type": 1,
+               "name": "MoveToTop",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "arrow-up",
+                  "color": "rgba(0, 141, 38, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\MoveToTop.jsx",
+               "argument": "",
+               "id": "5838717e-9d8a-42a2-8eb7-f79f4ccb45ea"
+            },
+            {
+               "type": 1,
+               "name": "Parent ot area",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "share-square",
+                  "color": "rgba(90, 0, 192, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\ParentToArea_v0.jsx",
+               "argument": "",
+               "id": "175a81bb-0c63-4b90-8bc8-8cc592538627"
+            },
+            {
+               "type": 1,
+               "name": "Position Swap",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "exchange",
+                  "color": "rgba(187, 12, 165, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\PoSSwap.jsx",
+               "argument": "",
+               "id": "4686d03b-fbd6-41da-bb80-71ebda2f768a"
+            },
+            {
+               "type": 1,
+               "name": " Reset “workspace” to Saved Layout",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "medkit",
+                  "color": "rgba(0, 255, 113, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Reset_workspace.jsx",
+               "argument": "",
+               "id": "d44474d7-1db6-4233-9534-4bb34abd7a90"
+            },
+            {
+               "type": 1,
+               "name": "Exp Find & Replace",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "search",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Expression_FindAndReplace.jsx",
+               "argument": "",
+               "id": "a31ee9fa-afff-4b70-bf69-e68e05e15f66"
+            }
+         ],
+         "id": "45fa5721-eb68-45b9-977b-be9c36fda7b3"
+      },
+      {
+         "name": "Start",
+         "buttons": [
+            {
+               "type": 1,
+               "name": "Import from text file",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "path": "TI",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Text_import.jsx",
+               "argument": "",
+               "id": "ee8e7827-ff1d-4757-92c0-89cabecc3113"
+            },
+            {
+               "type": 1,
+               "name": "Set TEXT duration",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "path": "SETD",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\VM_Set_TEXT_duration.jsx",
+               "argument": "",
+               "id": "db37cb65-8549-4bb1-b73a-bf614322147a"
+            },
+            {
+               "type": 1,
+               "name": "Set footage duration",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "path": "SEFD",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\VM_Set_footage_duration.jsx",
+               "argument": "",
+               "id": "bf6da3d9-5ee1-4e3a-894b-ab7f6624f8cc"
+            },
+            {
+               "type": 1,
+               "name": "Transition Placer",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "path": "TP",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Transition_Placer.jsx",
+               "argument": "",
+               "id": "c05f99b6-a995-4452-8e92-07d576b525ce"
+            }
+         ],
+         "id": "830abf4f-cb17-4444-b698-2bab42a3c3ef"
+      },
+      {
+         "name": "LipSink",
+         "buttons": [
+            {
+               "type": 1,
+               "name": "Convert Audio to Keyframes",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "music",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Convert Audio to Keyframes.jsx",
+               "argument": "",
+               "id": "412f3b14-8ef8-4bd0-a928-f167bba15045"
+            },
+            {
+               "type": 1,
+               "name": "Remember Selected Audio Layers",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "floppy-o",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Store_audio_data.jsx",
+               "argument": "",
+               "id": "ba44d2f5-f8b9-42f6-b067-1da69cec69ce"
+            },
+            {
+               "id": "f055832c-3e8f-4508-94c2-786ca3a24d06",
+               "type": 8,
+               "name": "-",
+               "description": "-",
+               "icon": {
+                  "type": 0,
+                  "path": "",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               }
+            },
+            {
+               "type": 1,
+               "name": "Add Simple Mouth Rig",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "sitemap",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Mouth_rig_v2.jsx",
+               "argument": "",
+               "id": "76904739-7946-4920-8556-c6bd72657f07"
+            },
+            {
+               "type": 1,
+               "name": "Add Advanced Mouth Rig",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "comments-o",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\speach_v2.jsx",
+               "argument": "",
+               "id": "12c52af0-90dc-4b9e-966d-b04137c81fa8"
+            },
+            {
+               "type": 1,
+               "name": "Link Mouth Rig to Audio Layers",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "link",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Apply_Speach_expression.jsx",
+               "argument": "",
+               "id": "ed9c9e22-6c59-4fa3-a2f5-b873d6b03428"
+            },
+            {
+               "type": 1,
+               "name": "Convert LipSink to Keyframes",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "tachometer",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Bake_Expression_v1.jsx",
+               "argument": "",
+               "id": "350d1baa-6cd2-4250-b864-e44c52289633"
+            }
+         ],
+         "id": "a00b53ba-06da-4c10-9aa7-1d724fa1a98f"
+      },
+      {
+         "name": "Extra",
+         "buttons": [
+            {
+               "type": 1,
+               "name": "Exctract charachter hand",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "hand-spock-o",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Bucrane_v0.jsx",
+               "argument": "",
+               "id": "c9fa3490-838b-46d3-ab32-e924249ec1b5"
+            },
+            {
+               "type": 1,
+               "name": "disable duik stratch",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "universal-access",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Diasble duik controller stretch_V2.jsx",
+               "argument": "",
+               "id": "75f40e1f-57e3-46f0-b327-6564a3f5c0bd"
+            },
+            {
+               "type": 1,
+               "name": "text to 2 lines",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "path": "VMV",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\VM_text_s_V2.jsx",
+               "argument": "",
+               "id": "c0acff82-8884-448a-9220-c9f135447bd6"
+            },
+            {
+               "type": 5,
+               "name": "Open Keyframe Interpolation Window",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "gg",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "menuCommand": "Keyframe Interpolation...",
+               "id": "28502376-db43-4420-9183-0ad9b06b29e1"
+            },
+            {
+               "type": 1,
+               "name": "Hide or Solo Text Layer",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "tripadvisor",
+                  "color": "rgba(189, 16, 224, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\hide or solo all text layer.jsx",
+               "argument": "",
+               "id": "8a1affa2-161e-4853-aeab-c25608e796e0"
+            },
+            {
+               "type": 1,
+               "name": "TextLayer dublicator",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "quote-left",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\text_dublicator.jsx",
+               "argument": "",
+               "id": "ebcf0133-b5b1-45e2-b7ce-a72d5cfc0562"
+            },
+            {
+               "type": 4,
+               "name": "Blink",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "path": "BL",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "presetPath": "D:\\Christian Lingua\\scripts\\Blink.ffx",
+               "id": "7d2172b3-1812-47ec-a145-56e18dc2101f"
+            },
+            {
+               "type": 4,
+               "name": "Blink",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "path": "BC",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "presetPath": "D:\\Christian Lingua\\scripts\\Blink CLIP.ffx",
+               "id": "4a3ff7ab-959b-4880-958d-9925b840f955"
+            },
+            {
+               "type": 1,
+               "name": "set pin color",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "map-pin",
+                  "color": "rgba(0, 237, 255, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\scripts\\Set_Pin_color.jsx",
+               "argument": "",
+               "id": "7951fff9-6a47-4da4-8285-aaf7e3a282ee"
+            },
+            {
+               "type": 5,
+               "name": "Comp Settings",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "cog",
+                  "color": ""
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "menuCommand": "Composition Settings...",
+               "id": "8e2fefe7-7a96-4396-95b6-830ffba6b2c8"
+            },
+            {
+               "type": 1,
+               "name": "Save Command To Button",
+               "description": "",
+               "icon": {
+                  "type": 1,
+                  "path": "file-code-o",
+                  "color": "rgba(255, 0, 0, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "filePath": "D:\\Christian Lingua\\Save Command To Button.jsx",
+               "argument": "",
+               "id": "6e70ccdf-f9b9-4570-9081-60bfc626d1a6"
+            }
+         ],
+         "id": "4f66824c-8f3e-44b0-aa43-73d0bfcbdf1b"
+      }
+   ],
+   "scale": 0.21,
+   "margin": 0,
+   "showTooltips": true
+}

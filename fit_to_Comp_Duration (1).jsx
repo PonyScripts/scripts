@@ -1,0 +1,28 @@
+
+		if(!$["_extAutomationBlocks"]) {
+			alert("Automation Blocks is not initialized. To run this script make sure the extension Automation Blocks is installed.");
+			throw new Error("could not find Automation Blocks API");
+		}
+		
+	(function(thisObj){
+		$._extAutomationBlocks.all.abDestructor.announceEndPoint("main script");
+		var myResult;
+		try {
+			app.beginUndoGroup("Automation Blocks");
+			myResult = JSON.stringify({status:"SUCCESS", data: eval("var VM_Layer_to_process, IS_Comp, VM_This_Comp_Duration, VM_List_of_Comps_to_edit, VM_Inner_layer, VM_slected_layer;\n\n// Describe this function...\nfunction Do_Work(VM_Layer_to_process, IS_Comp) {\n  $._extAutomationBlocks.all.messageAboutExecuteBlock('3Ryf,4ugWUX$Sn)q|`nd');\n  $._extAutomationBlocks.all.messageAboutExecuteBlock('n%EYtM7h7-aHbLZ;aA1e');\n  if (IS_Comp) {\n    $._extAutomationBlocks.all.messageAboutExecuteBlock('{Qww7LZRJZ6}|THv=fOM');\n    $._extAutomationBlocks.AeComp.setAttribute(VM_Layer_to_process, 'DURATION', VM_This_Comp_Duration);\n    $._extAutomationBlocks.all.messageAboutExecuteBlock('BTMS9MtU#zJ3o3vFg!98');\n    $._extAutomationBlocks.AeLayer.setAttribute(VM_Layer_to_process, 'OUT_POINT', VM_This_Comp_Duration);\n  } else {\n    $._extAutomationBlocks.all.messageAboutExecuteBlock('u8Jc^fU]JFKYGVBxwLp=');\n    $._extAutomationBlocks.AeLayer.setAttribute(VM_Layer_to_process, 'OUT_POINT', VM_This_Comp_Duration);\n  }\n}\n\n// Describe this function...\nfunction Change_Duration___Set_OutPoint(VM_Layer_to_process) {\n  $._extAutomationBlocks.all.messageAboutExecuteBlock('hJ{GGk]DpR+lI@:TXR.4');\n  $._extAutomationBlocks.all.messageAboutExecuteBlock('n0(m.4`OYbvK,}5yY;7a');\n  var VM_Inner_layer_list = $._extAutomationBlocks.AeLayer.getLayers(VM_Layer_to_process, {recursively: false,onlySelected:false,sortSelection:false, typeArray: [\"Layer\"],returnItem:true});\n  for (var VM_Inner_layer_index =0; VM_Inner_layer_index< VM_Inner_layer_list.length;VM_Inner_layer_index++) {\n    try { VM_Inner_layer = $._extAutomationBlocks.AeUtility.toPath(VM_Inner_layer_list[VM_Inner_layer_index]);}\n  \t\tcatch(e) {\n  \t\t\t$._extAutomationBlocks.all.log(\"skipped loop iteration:\"+e.message);\n  \t\t\tcontinue;\n  \t\t}\n  \t\t  $._extAutomationBlocks.all.messageAboutExecuteBlock('Oiu3;hxB]QYhO4JHeHqG');\n    if (($._extAutomationBlocks.AeLayer.getAttribute(VM_Inner_layer, 'TYPE')) == 'PrecompLayer') {\n      $._extAutomationBlocks.all.messageAboutExecuteBlock('T#$yyNt9pMMMVf!4a%^V');\n      Do_Work(VM_Inner_layer, true);\n      $._extAutomationBlocks.all.messageAboutExecuteBlock('=zo)f@F8K.(@4P8e_F(~');\n      Change_Duration___Set_OutPoint(VM_Inner_layer);\n    } else {\n      $._extAutomationBlocks.all.messageAboutExecuteBlock('(f(JV]l%c#$:n+I5Dojj');\n      Do_Work(VM_Inner_layer, false);\n    }\n    $._extAutomationBlocks.all.messageAboutExecuteBlock('n0(m.4`OYbvK,}5yY;7a');\n  }\n}\n\n\n$._extAutomationBlocks.all.messageAboutExecuteBlock('rPyGXsxEFD1}_w;kFw*t');\nif (true) {\n  $._extAutomationBlocks.all.messageAboutExecuteBlock('!U~Ci8j4KmMfz_dg[Z[a');\n  VM_This_Comp_Duration = ($._extAutomationBlocks.AeComp.getAttribute(($._extAutomationBlocks.AeComp.getActiveComp()), 'DURATION'));\n  $._extAutomationBlocks.all.messageAboutExecuteBlock('9/$^^OIpzH#l,UK@DRs8');\n  VM_List_of_Comps_to_edit = ($._extAutomationBlocks.AeLayer.getLayers(($._extAutomationBlocks.AeComp.getActiveComp()), {onlySelected:true,sortSelection:false, typeArray: [\"Layer\"]}));\n  $._extAutomationBlocks.all.messageAboutExecuteBlock('MR%TpqT3_UtgDnX.=%|l');\n  if (!VM_List_of_Comps_to_edit.length) {\n    $._extAutomationBlocks.all.messageAboutExecuteBlock(':?-Cduj[BPDlWpTTb{IK');\n    (function(){\n    \t\t\tvar message = $._extAutomationBlocks.all.EsString.esToString('Select Layer');\n    \t\t\talert(message);\n    \t\t\tthrow new Error(message)\n    \t})();\n  } else {\n    $._extAutomationBlocks.all.messageAboutExecuteBlock('AI`PoAh/Kx*ME;T{Uk[P');\n    for (var VM_slected_layer_index =0; VM_slected_layer_index< VM_List_of_Comps_to_edit.length;VM_slected_layer_index++) {\n      try { VM_slected_layer = VM_List_of_Comps_to_edit[VM_slected_layer_index];}\n    \t\tcatch(e) {\n    \t\t\t$._extAutomationBlocks.all.log(\"skipped loop iteration:\"+e.message);\n    \t\t\tcontinue;\n    \t\t}\n    \t\t  $._extAutomationBlocks.all.messageAboutExecuteBlock('r.;YO75:spfXMr~{t,=+');\n      if (($._extAutomationBlocks.AeLayer.getAttribute(VM_slected_layer, 'TYPE')) == 'PrecompLayer') {\n        $._extAutomationBlocks.all.messageAboutExecuteBlock('iT;X/Q*0J,i41oqK?1!2');\n        Do_Work(VM_slected_layer, true);\n        $._extAutomationBlocks.all.messageAboutExecuteBlock('[|sg!xvwP$xtu)toLV!x');\n        Change_Duration___Set_OutPoint(VM_slected_layer);\n      } else {\n        $._extAutomationBlocks.all.messageAboutExecuteBlock('b--ey@t]JhKD/{RbFJw.');\n        Do_Work(VM_slected_layer, false);\n      }\n      $._extAutomationBlocks.all.messageAboutExecuteBlock('AI`PoAh/Kx*ME;T{Uk[P');\n    }\n  }\n}\n")});
+		}
+		catch(err){
+			myResult = JSON.stringify({status:"ERROR", data:""+err.message+" (line "+(err.line)+")"});
+		}
+		finally {
+			app.endUndoGroup();
+			try{
+			$._extAutomationBlocks.all.abDestructor.notifyEndPointReached("main script");
+			}
+			catch(err){
+				myResult = JSON.stringify({status:"ERROR", data:""+err.message+" (line "+(err.line)+")"});
+			}
+		}
+		return myResult;
+	})(this)
+	
